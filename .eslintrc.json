@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:eslint-plugin/recommended",
+    "plugin:node/recommended"
+  ],
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-empty-use-form": "error"
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*spec.ts"],
+      "env": { "jest": true }
+    }
+  ]
+}
