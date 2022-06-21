@@ -1,6 +1,6 @@
 # @formiz/eslint-plugin
 
-## Installation
+## Setup
 
 ```sh
 yarn add -D @formiz/eslint-plugin
